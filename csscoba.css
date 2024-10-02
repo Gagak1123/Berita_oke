@@ -61,6 +61,25 @@ div {
         width: 110px;
     }
 }
+@media only screen and (max-width: 100px) {
+    .background {
+        padding: 2px 5px 2px 5px;
+        
+    }
+    .tulisan{
+        margin-left: 100px;
+    }
+    #pngg{
+        height: 230px;
+        width: fit-content;
+    }
+    .imgg{
+        margin-left: -20px;
+        margin-bottom: -88px;
+        height: 110px;
+        width: 110px;
+    }
+}
 @media only screen and (min-width: 414px) {}
 @media only screen and (min-width: 390px) {}
 @media only screen and (min-width: 430px) {}
