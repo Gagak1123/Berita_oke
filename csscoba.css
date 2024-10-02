@@ -3,18 +3,24 @@ body{
     height: fit-content;
     display: flow-root;
     display: block;
+    display: inline;
     max-width: 1000%;
 }
 
 /* @media only screen and (max-width:;)
 boostrap, flexbox*/
 
+#pngg{
+    height: 250px;
+}
 
 .imgg{
     inline-size: 145px;
-    margin-bottom: -90px;
-    margin-top: -38px;
-    height: 135px;
+    margin-bottom: -88px;
+    margin-top: -2px;
+    margin-left: -15px;
+    height: 100px;
+    width: 100px;
     
 }
 
@@ -22,7 +28,7 @@ boostrap, flexbox*/
     align-items: center;
     text-align: center;
     background-color: black;
-    padding: 5px 20px 5px 20px;
+    padding: 5px 20px 5px 90px;
     margin-top: -26.4px;
     margin-right: -8px;
     margin-left: -8px;
@@ -33,59 +39,8 @@ boostrap, flexbox*/
     font-size: xx-large;
 }
 
-p{
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    unicode-bidi: isolate;
-}
 
 div {
     display: block;
     unicode-bidi: isolate;
 }
-
-
-
-@media only screen and (min-width: 390px) {
-    #pngg{
-        height: 260px;
-        width: fit-content;
-    }
-    .imgg{
-        margin-left: 2.5px;
-        margin-bottom: -88px;
-        height: 120px;
-        width: 110px;
-    }
-}
-@media only screen and (max-width: 100px) {
-    .background {
-        padding: 2px 5px 2px 5px;
-        
-    }
-    .tulisan{
-        margin-left: 100px;
-    }
-    #pngg{
-        height: 230px;
-        width: fit-content;
-    }
-    .imgg{
-        margin-left: -20px;
-        margin-bottom: -88px;
-        height: 110px;
-        width: 110px;
-    }
-}
-@media only screen and (min-width: 414px) {}
-@media only screen and (min-width: 390px) {}
-@media only screen and (min-width: 430px) {}
-@media only screen and (min-width: 412px) {}
-@media only screen and (min-width: 360px) {}
-@media only screen and (min-width: 768px) {}
-@media only screen and (min-width: 820px) {}
-@media only screen and (min-width: 1024px) {}
-@media only screen and (min-width: 912px) {}
